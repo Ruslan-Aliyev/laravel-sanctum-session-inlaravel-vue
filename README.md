@@ -16,3 +16,14 @@ php artisan migrate --seed
 npm install
 npm run dev
 ```
+
+Setup Vue in Laravel 11: https://laraveldaily.com/post/how-to-add-vue-3-laravel-10-vite-quick-tutorial
+
+Finish the Vue related files and make a protected route.
+
+```
+php artisan serve
+npm run dev
+```
+
+![](/Illustrations/results.png)

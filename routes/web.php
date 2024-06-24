@@ -25,3 +25,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::middleware('auth:sanctum')->get('/protected', function (Request $request) {
+    return 'Protected stuff';
+});
